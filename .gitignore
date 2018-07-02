@@ -1,0 +1,18 @@
+# default sculpin gitignore
+/.sculpin/
+/app/cache/*
+/app/config/sculpin_kernel_*.yml
+/app/config/sculpin_site_*.yml
+/app/logs/*
+/output_*/
+/source/components/
+s3.conf
+
+# extra
+/vendor/*
+
+# mac os x
+.DS_Store
+
+# netlify
+.netlify
