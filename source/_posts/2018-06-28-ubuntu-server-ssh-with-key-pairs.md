@@ -1,5 +1,5 @@
 ---
-title: Happy Birthday Sculpin!
+title: Ubuntu Server SSH with Key Pairs
 tags:
     - sculpin
     - markdown
