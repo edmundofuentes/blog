@@ -35,7 +35,7 @@ Add the following lines to `~/.gnugp/gpg-agent.conf`
 
 The `gpg-agent` is the link between __
 
-```
+```nohighlight
 pinentry-program /usr/local/bin/pinentry-mac
 default-cache-ttl 3600
 default-cache-ttl-ssh 3600
