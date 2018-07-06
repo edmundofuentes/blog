@@ -20,7 +20,8 @@ a {
     border-bottom: 2px solid #3771E0; }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Francois One", sans-serif; }
+  font-family: "Francois One", sans-serif;
+  margin-top: 2em; }
 
 p {
   font-size: 16px;
@@ -187,7 +188,7 @@ html, body {
   text-align: center;
   font-size: 14px; }
   #footer .footer-wrapper {
-    padding: 40px 20px; }
+    padding: 40px 20px 0; }
   #footer .copy {
     color: #A0A0A0;
     padding-bottom: 20px; }
@@ -251,3 +252,17 @@ img[src$='#profile-picture'] {
     padding: 0 30px; }
   .social-links a {
     border-bottom: none; }
+
+@media screen and (max-width: 760px) {
+  body {
+    font-size: 14px; }
+  p {
+    font-size: 14px;
+    word-wrap: break-word; }
+  #header .navigation .nav-wrapper ul {
+    padding: 20px 10px; }
+    #header .navigation .nav-wrapper ul li {
+      padding: 0 5px; }
+  #primary {
+    padding-top: 50px;
+    padding-bottom: 20px; } }
