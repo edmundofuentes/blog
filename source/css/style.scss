@@ -1,7 +1,14 @@
 // COLOR PALLETE
-$primary: #3771E0;
 //$primary: #397dff;
-$primary-light: #5c94ff;
+
+//$primary: #3771E0; // better one yet
+//$primary-light: #5c94ff;
+
+//$primary: #039be5;
+//$primary-light: #03a9f4;
+
+$primary: #03a9f4;
+$primary-light: #29B6F6;
 
 $black: #000000;
 $light-gray: #F0F0F0;
@@ -336,10 +343,11 @@ img[src$='#profile-picture'] {
 }
 
 .social-links {
-  width: 100%;
+  //width: 100%;
   text-align: center;
   margin: 0;
-  padding: 25px;
+  padding: 25px 0;
+  line-height: 30px;
   li {
     list-style: none;
     display: inline-block;

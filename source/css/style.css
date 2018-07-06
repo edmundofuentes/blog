@@ -12,12 +12,12 @@ code, kbd, pre, samp {
 a {
   color: inherit;
   text-decoration: none;
-  border-bottom: 2px solid #3771E0; }
+  border-bottom: 2px solid #03a9f4; }
 
 .hover-underline {
   border-bottom: none; }
   .hover-underline:hover, .hover-underlineactive {
-    border-bottom: 2px solid #3771E0; }
+    border-bottom: 2px solid #03a9f4; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Francois One", sans-serif;
@@ -50,7 +50,7 @@ hr {
   margin: 30px 0;
   height: 0; }
   .spacer:after {
-    border-bottom: 2px solid #3771E0;
+    border-bottom: 2px solid #03a9f4;
     content: "";
     display: block;
     margin: 0 auto 1.5em;
@@ -97,15 +97,15 @@ hr {
   text-align: center; }
 
 ::-moz-selection {
-  background: #5c94ff;
+  background: #29B6F6;
   /* WebKit/Blink Browsers */ }
 
 ::selection {
-  background: #5c94ff;
+  background: #29B6F6;
   /* WebKit/Blink Browsers */ }
 
 ::-moz-selection {
-  background: #5c94ff;
+  background: #29B6F6;
   /* Gecko Browsers */ }
 
 html, body {
@@ -128,7 +128,7 @@ html, body {
 
 #header {
   width: 100%;
-  background-color: #3771E0;
+  background-color: #03a9f4;
   margin: 0;
   padding: 0;
   text-align: center; }
@@ -156,7 +156,7 @@ html, body {
           border-bottom: 2px solid #000000; }
 
 #hero {
-  background-color: #3771E0;
+  background-color: #03a9f4;
   min-height: 350px; }
 
 #primary {
@@ -242,10 +242,10 @@ img[src$='#profile-picture'] {
   height: auto; }
 
 .social-links {
-  width: 100%;
   text-align: center;
   margin: 0;
-  padding: 25px; }
+  padding: 25px 0;
+  line-height: 30px; }
   .social-links li {
     list-style: none;
     display: inline-block;
