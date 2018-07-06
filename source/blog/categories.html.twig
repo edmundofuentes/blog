@@ -1,0 +1,31 @@
+---
+layout: simple-page
+title: Categories & Tags
+use:
+    - posts_categories
+    - posts_tags
+---
+
+{% if data.posts_categories %}
+    <h1><i class="fa fa-folder-open"></i> Categories</h1>
+    <div class="tag-list">
+        {% for category, posts in data.posts_categories %}
+            <a class="tag" href="{{ site.url }}/blog/categories/{{ category|url_encode(true) }}">{{ category }}</a>
+        {% else %}
+            <em>No categories found</em>
+        {% endfor %}
+    </div>
+{% endif %}
+
+<br><br>
+
+{% if data.posts_tags %}
+    <h2><i class="fa fa-tag"></i> Tags</h2>
+    <div class="tag-list">
+        {% for tag, posts in data.posts_tags %}
+            <a class="tag" href="{{ site.url }}/blog/tags/{{ tag|url_encode(true) }}">{{ tag }}</a>
+        {% else %}
+            <em>No tags found</em>
+        {% endfor %}
+    </div>
+{% endif %}

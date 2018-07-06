@@ -1,16 +1,15 @@
 ---
 title: Yubikey GPG SSH setup
 tags:
-    - sculpin
-    - markdown
+    - ssh
+    - yubikey
+    - security
 categories:
-    - personal
+    - devops
 ---
 
-## Hello?
-Hello
-running
-YubiKey 4 (a pair or more) https://www.yubico.com/products/yubikey-hardware/
+
+[YubiKey 4](https://www.yubico.com/products/yubikey-hardware/) (a pair or more) 
 macOS 10.13.5 High Sierra
 
 AWS EC2 Ubuntu 18.04
@@ -256,6 +255,7 @@ Reset your YubiKey 4: https://gist.github.com/pkirkovsky/c3d703633effbdfcb48c
 
 
 In no particular order:
+
 - First Look Media "Configure SSH to use a Yubikey as a private key" https://github.com/firstlookmedia/firstlookmedia.github.io/wiki/Configure-SSH-to-use-a-Yubikey-as-a-private-key
 - Simon Slangen, Make Use Of, "How To Authenticate Over SSH With Keys Instead Of Passwords" https://www.makeuseof.com/tag/how-to-authenticate-over-ssh-with-keys-instead-of-passwords/
 - GnuPG.org https://www.gnupg.org/howtos/card-howto/en/ch03s03.html

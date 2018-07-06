@@ -1,0 +1,13 @@
+{% extends "default" %}
+
+{% block content_wrapper %}
+    <article class="clearfix">
+        <header>
+            <h2 class="title">{{ page.title }}</h2>
+        </header>
+        <div class="spacer"></div>
+        <div class="post-content">
+            {{ page.blocks.content|raw }}
+        </div>
+    </article>
+{% endblock %}

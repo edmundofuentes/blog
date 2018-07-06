@@ -1,10 +1,10 @@
 ---
 title: Ubuntu Server SSH with Key Pairs
 tags:
-    - sculpin
-    - markdown
+    - ssh
+    - security
 categories:
-    - personal
+    - devops
 ---
 
 ## Authorized Keys
