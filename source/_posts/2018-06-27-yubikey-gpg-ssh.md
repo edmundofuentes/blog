@@ -59,10 +59,11 @@ echo "export SSH_AUTH_SOCK=${HOME}/.gnupg/S.gpg-agent.ssh" >> ~/.bash_profile
 
 Close all your current terminal windows and restart the Terminal application.
 
-Restart the `gpg-agent` service:
+Restart the `gpg-agent` service and update its settings:
 
 ```bash
 gpg-connect-agent killagent /bye
+gpg-connect-agent updatestartuptty /bye
 gpg-connect-agent /bye
 ```
 
