@@ -1,9 +1,8 @@
 Edmundo Fuentes' Blog
 =====================
 
-A skeleton for a Sculpin based blog.
-
-Powered by [Sculpin](http://sculpin.io).
+A statically-generated blog for my random entries and notes-to-self about programming and finance engineering.
+Powered by [Sculpin](http://sculpin.io). Free hosting by [Netlify](https://www.netlify.com).
 
 Install
 -------
@@ -12,16 +11,8 @@ Install
 $ composer install
 ```
 
-[Install Netlify command line tools](https://www.netlify.com/docs/cli/) using `npm`, the node package manager.
-
-```bash
-npm install netlify-cli g
-```
-
-**UPDATE:** Netlify is buggy as fuck. The npm version of the cli does _not_ work on Node 10. Apparently this cli version is
-deprecated, but it still appers in their docs. You should now use the `netlifyctl` tool.
-
-https://github.com/netlify/netlifyctl
+**UPDATE:** The npm version of the cli does _not_ work on Node 10. Apparently this cli version is
+deprecated, but it still appears in their docs. You should now use their [new tool(https://github.com/netlify/netlifyctl)
 
 ```bash 
 brew tap netlify/netlifyctl
@@ -31,7 +22,9 @@ brew install netlifyctl
 Development Build
 -----
 
-    php vendor/bin/sculpin generate --watch --server
+```bash
+php vendor/bin/sculpin generate --watch --server
+```
 
 The newly generated blog is now accessible at `http://localhost:8000/`.
 
@@ -45,15 +38,19 @@ Generating Production Builds
 When `--env=prod` is specified, the site will be generated in `output_prod/`. This
 is the location of your production build.
 
-    php vendor/bin/sculpin generate --env=prod
+```bash
+php vendor/bin/sculpin generate --env=prod
+```
 
 
 Publish
 -------
 
-Using Netlify
 
+Using Netlify, we publish
 
-
+```bash
+netlifyctl deploy -P output_prod
+```
 
 Optionally, use `./publish.sh` to generate a production build and deploy it to Netlify.

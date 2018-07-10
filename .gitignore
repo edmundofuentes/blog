@@ -11,8 +11,13 @@ s3.conf
 # extra
 /vendor/*
 
-# mac os x
-.DS_Store
+# Prepros
+prepros-6.conf
 
-# netlify
+# macOS
+.DS_Store
+Thumbs.db
+
+# Netlify
 .netlify
+netlify.toml

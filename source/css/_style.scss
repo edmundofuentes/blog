@@ -1,31 +1,4 @@
-// COLOR PALLETE
-//$primary: #397dff;
 
-//$primary: #3771E0; // better one yet
-//$primary-light: #5c94ff;
-
-//$primary: #039be5;
-//$primary-light: #03a9f4;
-
-$primary: #03a9f4;
-$primary-light: #29B6F6;
-
-$black: #000000;
-$light-gray: #F0F0F0;
-$medium-gray: #A0A0A0;
-$dark-gray: #404040;
-$white: #FFFFFF;
-
-// VARIABLES
-$footer-height: 130px;
-
-
-// FONTS
-
-@import url('https://fonts.googleapis.com/css?family=Francois+One|Arimo:400,400i,700,700i|Roboto+Mono');
-$font-body: 'Arimo', sans-serif;
-$font-title: 'Francois One', sans-serif;
-$font-code: 'Roboto Mono', Menlo, Monaco, Consolas, "Courier New", monospace;
 
 // GENERICS
 
@@ -261,18 +234,22 @@ html, body {
   font-size: 14px;
 
   .footer-wrapper {
-    padding: 40px 20px 0;
+    padding: 20px 20px 0;
   }
 
   .copy {
     color: $medium-gray;
-    padding-bottom: 20px;
+    padding-bottom: 5px;
+  }
+
+  .license {
+    color: $medium-gray;
+    padding-bottom: 5px;
   }
 
   .design {
     color: $dark-gray;
   }
-
 }
 
 // ARTICLE LAYOUT
@@ -384,5 +361,12 @@ img[src$='#profile-picture'] {
   #primary {
     padding-top: 50px;
     padding-bottom: 20px;
+  }
+
+  #footer {
+    font-size: 12px;
+    .footer-wrapper {
+      padding: 15px 10px;
+    }
   }
 }

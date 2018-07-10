@@ -188,10 +188,13 @@ html, body {
   text-align: center;
   font-size: 14px; }
   #footer .footer-wrapper {
-    padding: 40px 20px 0; }
+    padding: 20px 20px 0; }
   #footer .copy {
     color: #A0A0A0;
-    padding-bottom: 20px; }
+    padding-bottom: 5px; }
+  #footer .license {
+    color: #A0A0A0;
+    padding-bottom: 5px; }
   #footer .design {
     color: #404040; }
 
@@ -265,4 +268,8 @@ img[src$='#profile-picture'] {
       padding: 0 5px; }
   #primary {
     padding-top: 50px;
-    padding-bottom: 20px; } }
+    padding-bottom: 20px; }
+  #footer {
+    font-size: 12px; }
+    #footer .footer-wrapper {
+      padding: 15px 10px; } }
