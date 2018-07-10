@@ -5,6 +5,7 @@
 /app/config/sculpin_site_*.yml
 /app/logs/*
 /output_*/
+/node_modules/*
 /source/components/
 s3.conf
 
