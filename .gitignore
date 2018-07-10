@@ -14,6 +14,7 @@ s3.conf
 
 # Prepros
 prepros-6.conf
+prepros-6.config
 
 # macOS
 .DS_Store
