@@ -38,7 +38,7 @@ However, this is a very quick fix. We'll set the appropiate `LANG` environment v
 echo "export LANG=en" >> ~/.bash_profile
 ```
 
-Along with GnuPG, we've installed a utility called `gpg-agent` which operates as a link between the YubiKey and the underlying GPG libraries. In order to improve the compatibility between macOS and the YubiKey, we need to add the following lines to the `gpg-agent` configuration file located in `~/.gnugp/gpg-agent.conf`
+Along with GnuPG, we've installed a utility called `gpg-agent` which operates as a link between the YubiKey and the underlying GPG libraries. In order to improve the compatibility between macOS and the YubiKey, we need to add the following lines to the `gpg-agent` configuration file located in `~/.gnupg/gpg-agent.conf`
 
 
 ```
