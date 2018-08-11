@@ -4,6 +4,7 @@ tags:
     - ssh
     - yubikey
     - security
+    - macos
 categories:
     - devops
 ---
@@ -276,6 +277,6 @@ Some of the articles, documentation and guides that I consulted, in no particula
 
 - First Look Media: ["Configure SSH to use a Yubikey as a private key"](https://github.com/firstlookmedia/firstlookmedia.github.io/wiki/Configure-SSH-to-use-a-Yubikey-as-a-private-key)
 - Simon Slangen (Make Use Of): ["How To Authenticate Over SSH With Keys Instead Of Passwords"](https://www.makeuseof.com/tag/how-to-authenticate-over-ssh-with-keys-instead-of-passwords/)
-- GnuPG.org: ["Initialising the card](https://www.gnupg.org/howtos/card-howto/en/ch03s03.html)
+- GnuPG.org: ["Initialising the card"](https://www.gnupg.org/howtos/card-howto/en/ch03s03.html)
 - Paddy Steed (Engineer Better): ["Yubikeys for SSH Auth"](http://www.engineerbetter.com/blog/yubikey-ssh/)
 - [YubiKey-Guide by drduh](https://github.com/drduh/YubiKey-Guide)
