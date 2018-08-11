@@ -36,7 +36,7 @@ If you bash profile does not specify a language with `LANG`, `gnupg2` will try t
 However, this is a very quick fix. We'll set the appropiate `LANG` environment variable in the bash profile to `en`.
 
 ```bash
-echo "export LANG=en" >> ~/.bash_profile
+echo 'export LANG=en' >> ~/.bash_profile
 ```
 
 Along with GnuPG, we've installed a utility called `gpg-agent` which operates as a link between the YubiKey and the underlying GPG libraries. In order to improve the compatibility between macOS and the YubiKey, we need to add the following lines to the `gpg-agent` configuration file located in `~/.gnupg/gpg-agent.conf`
@@ -52,10 +52,11 @@ enable-ssh-support
 ```
 
 We also need to update the shell environment to allow `ssh` to use `gpg-agent` as an authentication service.
+(Note: the single quote (`'`) and double quotes (`"`) behave differently in shell/bash)
 
 ```bash
-echo "export GPG_TTY=$(tty)" >> ~/.bash_profile
-echo "export SSH_AUTH_SOCK=${HOME}/.gnupg/S.gpg-agent.ssh" >> ~/.bash_profile
+echo 'export GPG_TTY=$(tty)' >> ~/.bash_profile
+echo 'export SSH_AUTH_SOCK=${HOME}/.gnupg/S.gpg-agent.ssh' >> ~/.bash_profile
 ```
 
 Close all your current terminal windows and restart the Terminal application.
