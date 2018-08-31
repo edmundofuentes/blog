@@ -69,7 +69,6 @@ gpg-connect-agent updatestartuptty /bye
 gpg-connect-agent /bye
 ```
 
-
 Finally, insert your YubiKey in a USB port and check if it is being correctly detected by running the command:
 
 ```bash
@@ -78,7 +77,7 @@ gpg --card-status
 
 You should see the details of your YubiKey (card) in the console. Take note of the Serial Number of the card, it might be of use later in the setup.
 
-
+> If you are having issues with the `gpg-agent` after a reboot, [check my newer post](https://www.edmundofuentes.com/blog/2018/08/20/quick-fix-for-yubikey-gpg-ssh/) for a quick-n-dirty fix.
 
 ## 2. Initialize the YubiKey
 ### 2.1 Change the PINs
