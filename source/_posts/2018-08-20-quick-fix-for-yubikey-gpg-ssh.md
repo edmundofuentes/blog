@@ -26,7 +26,7 @@ gpg-connect-agent updatestartuptty /bye
 ```
 
 
-From this, the quick-n-dirty solution is to add that command to as a bash alias by appending this line to the end of the `~/.bash_profile` file:
+Knowing this, the quick-n-dirty solution is to add that command as a bash alias by appending this line to the end of the `~/.bash_profile` file:
 
 
 ```bash
