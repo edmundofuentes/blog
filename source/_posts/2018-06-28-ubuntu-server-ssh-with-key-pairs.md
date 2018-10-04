@@ -130,7 +130,7 @@ PermitEmptyPasswords no
 Restart once again the SSH daemon:
 
 ```bash
-sudo systemctl restart sshd_config
+sudo systemctl restart sshd
 ```
 
 Try to login with your Private Key, it should still work.
