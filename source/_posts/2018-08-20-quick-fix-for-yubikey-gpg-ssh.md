@@ -19,10 +19,12 @@ $ ssh-add -L
 Error connecting to agent: No such file or directory
 ```
 
-After a lot of reading and tinkering, I'm still not sure what the underlying issue is, but I've found that the following command always fixes the issue after a restart:
+After a lot of reading and tinkering, I'm still not sure what the underlying issue is, but I've found that forcefully restarting the `gpg-agent` always fixes the issue after a system restart:
 
 ```bash
+gpg-connect-agent killagent /bye
 gpg-connect-agent updatestartuptty /bye
+gpg-connect-agent /bye
 ```
 
 
@@ -30,13 +32,13 @@ From this, the quick-n-dirty solution is to add that command to as a bash alias 
 
 
 ```bash
-alis gpgreset='gpg-connect-agent updatestartuptty /bye'
+alias gpgreset='gpg-connect-agent killagent /bye; gpg-connect-agent updatestartuptty /bye; gpg-connect-agent /bye'
 ```
 
 If you prefer one-liners, you can paste this command in your terminal window and it'll append the line to the end of your bash profile file:
 
 ```bash
-echo "alias gpgreset='gpg-connect-agent updatestartuptty /bye'" >> ~/.bash_profile
+echo "alias gpgreset='gpg-connect-agent killagent /bye; gpg-connect-agent updatestartuptty /bye; gpg-connect-agent /bye'" >> ~/.bash_profile
 ```
 
 Now quit Terminal (`⌘+Q`) and re-open it.
