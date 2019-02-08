@@ -158,3 +158,9 @@ After the kernel changes I went ahead and tested, no more problems at all.
 - Kaven Gagnon, "" http://www.itechlounge.net/2015/05/linux-how-to-tune-up-receive-tx-and-transmit-rx-buffers-on-network-interface/
 https://jvns.ca/blog/2016/08/24/find-out-where-youre-dropping-packets/
 https://blog.packagecloud.io/eng/2016/06/22/monitoring-tuning-linux-networking-stack-receiving-data/
+
+
+Other:
+- https://medium.com/@CameronSparr/increase-os-udp-buffers-to-improve-performance-51d167bb1360
+- https://www.systutorials.com/241303/how-to-enlarge-linux-udp-buffer-size/
+- https://www.itechlounge.net/2015/05/linux-how-to-tune-up-receive-tx-and-transmit-rx-buffers-on-network-interface/
