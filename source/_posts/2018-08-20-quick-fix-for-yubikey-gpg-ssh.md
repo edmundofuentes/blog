@@ -15,7 +15,7 @@ To check my card status, I run the `ssh-add -L` which should print my card's pub
 
 
 ```bash 
-$ ssh-add -L
+$> ssh-add -L
 Error connecting to agent: No such file or directory
 ```
 
