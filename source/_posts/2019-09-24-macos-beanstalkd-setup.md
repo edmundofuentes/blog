@@ -15,6 +15,11 @@ Requires Brew
 brew install beanstalkd
 ```
 
+If your beanstalkd installation is misbehaving, you can nudge it with:
+
+```bash
+brew services restart beanstalkd
+```
 
 There are some tools recommended by the __ __ https://github.com/beanstalkd/beanstalkd/wiki/Tools
 
@@ -48,8 +53,13 @@ create a `run.sh` file that will launch the local PHP server and open a new tab 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null && pwd )"
 cd ${DIR}
 
+# Restart the core Beanstalkd service
+brew services restart beanstalkd
+
+# Launch a new Chrome window pointing to the console
 open -a "Google Chrome" "http://127.0.0.1:8005"
 
+# Start the local PHP server with the beanstalk_console
 php -S 127.0.0.1:8005 -t public
 ```
 
