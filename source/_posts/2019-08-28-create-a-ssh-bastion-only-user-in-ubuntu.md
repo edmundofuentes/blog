@@ -1,4 +1,13 @@
-
+---
+title: Enabling NTP Time Synchronization in Ubuntu 18.04
+tags:
+    - ssh
+    - security
+    - ubuntu
+categories:
+    - devops
+draft: yes
+---
 
 
 for the exercise, we'll use the username `bastion`.
