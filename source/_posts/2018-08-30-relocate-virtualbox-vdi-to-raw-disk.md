@@ -11,7 +11,7 @@ categories:
 draft: yes
 ---
 
-In the financial world (anything enterprise-y really) everything runs in Windows.
+In the financial world (or anything enterprise-y really) everything runs in Windows.
 
 More and more custom single-purpose applications run on
 
