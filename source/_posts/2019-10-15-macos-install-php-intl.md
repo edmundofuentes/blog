@@ -16,6 +16,21 @@ brew link php@7.3
 This guide requires [Brew](https://brew.sh).
 
 
+Requires XCode Command Line Tools
+
+First install XCode from the AppStore
+Then run 
+
+```bash
+xcode-select --install
+```
+
+Create an `sbin`
+
+sudo mkdir /usr/local/sbin
+sudo chown -R $(whoami):admin /usr/local/sbin
+
+
 ```
 php -m | grep intl
 ```
