@@ -1,4 +1,8 @@
 @import url("https://fonts.googleapis.com/css?family=Francois+One|Arimo:400,400i,700,700i|Roboto+Mono");
+pre {
+  width: 100%;
+  overflow-x: scroll; }
+
 code {
   padding: 2px 4px;
   font-size: 90%;
@@ -18,6 +22,9 @@ a {
   border-bottom: none; }
   .hover-underline:hover, .hover-underlineactive {
     border-bottom: 2px solid #03a9f4; }
+
+a.no-underline, a.no-underline:hover, a.no-underline:active {
+  border-bottom: none !important; }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: "Francois One", sans-serif;
@@ -56,6 +63,12 @@ hr {
     display: block;
     margin: 0 auto 1.5em;
     width: 60px; }
+
+.footnote {
+  font-size: small;
+  font-style: italic;
+  text-align: right;
+  margin-top: 0; }
 
 .tag-list {
   display: block; }
@@ -219,6 +232,9 @@ article header .datetime {
 
 article .post-content {
   margin-bottom: 50px; }
+  article .post-content img {
+    width: 100%;
+    height: auto; }
 
 nav.article {
   height: 30px;
