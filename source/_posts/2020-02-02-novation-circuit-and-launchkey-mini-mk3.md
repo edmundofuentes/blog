@@ -11,7 +11,7 @@ categories:
 
 [Novation](https://novationmusic.com) has recently launched an updated version of their [Launchkey Mini (Mk3)](https://novationmusic.com/en/keys/launchkey-mini) MIDI keyboard controller and it seemed like an excellent companion to the [Novation Circuit](https://novationmusic.com/en/circuit/circuit) groovebox I already owned.
 
-The Launchkey Mini Mk3 is competitively price, it's from the same maker as the Circuit, and they look very good together: both of them are exactly the same height and are made of the same materials.
+The Launchkey Mini Mk3 is reasonably priced, it's from the same maker as the Circuit, and they look very good together: both of them are exactly the same height and are made of the same materials.
 
 My goal was to use both devices side by side, using the Circuit's controls to arrange and manipulate the sound, while using the Launchkey to play the actual notes. That means I don't need to map each and every control of the Circuit into the Launchkey, since I'm using the Launchkey mostly to have a "regular" keyboard to play on (as well as using the arpeggiator functionality), while using the Circuit to control the sound of each patch, the session and the mixer.
 
@@ -20,7 +20,7 @@ My goal was to use both devices side by side, using the Circuit's controls to ar
 I'm running the most recent firmware on both devices:
 
 - Circuit: v1.8
-- Launchkey Mini Mk3: v1.0
+- Launchkey Mini Mk3: v1.01
 
 There are two ways to connect the devices: (i) using MIDI cables for a hardware-only setup, or (ii) using an intermediary computer as an USB MIDI host.
 
