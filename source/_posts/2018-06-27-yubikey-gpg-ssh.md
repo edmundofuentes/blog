@@ -9,6 +9,8 @@ categories:
     - devops
 ---
 
+**Note: I've written an [updated guide for macOS Catalina](/blog/2020/03/20/yubikey-gpg-ssh-macos-catalina/)**
+
 This guide was tested on my current development setup:
 
 - **Local:** macOS 10.13.5 High Sierra on a MacBook Pro 15-inch Touchbar
