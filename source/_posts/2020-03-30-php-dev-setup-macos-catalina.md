@@ -27,6 +27,28 @@ https://stackoverflow.com/a/58300437
 The Brew Formula includes all commonly used 
 
 
+
+
+
+
+
+
+Install MySQL
+
+
+brew tap homebrew/services
+
+brew install mysql@5.7
+
+ brew link mysql@5.7 --force
+
+
+brew services start mysql@5.7
+
+mysqladmin -u root password 'yourpassword'
+
+
+
 _This is an update of my previous guide for [macOS 10.3 High Sierra](blog/2018/06/27/yubikey-gpg-ssh/)_
 
 This guide was tested on my current development setup:
