@@ -26,3 +26,5 @@ netlify.toml
 
 # JetBrains
 .idea/
+# JetBrains Project Name
+!/.idea/.name

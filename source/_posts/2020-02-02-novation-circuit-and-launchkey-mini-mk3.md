@@ -70,7 +70,7 @@ The Circuit has a very simple MIDI interface:
 The Circuit only supports 4 different drum samples, but the Launchkey has 16 pads (2 rows, 8 columns). I repeated each drum 4 times in a mirrored pattern for "better" finger-drumming.
 
 <a href="/images/posts/2020-02-02-novation-circuit-and-launchkey-mini-mk3/components-layout.png" class="no-underline" target="_blank">
-    <img src="/images/posts/2020-02-02-novation-circuit-and-launchkey-mini-mk3/components-layout.png" alt="[Custom Mode for Launchkey with Circuit" />
+    <img src="/images/posts/2020-02-02-novation-circuit-and-launchkey-mini-mk3/components-layout.png" alt="Custom Mode for Launchkey with Circuit" />
 </a>
 
 <!--
