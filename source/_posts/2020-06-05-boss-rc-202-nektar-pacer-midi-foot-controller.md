@@ -71,7 +71,7 @@ D          | Undo Track 2        | Relay 2    | CTL2        | FN 8
 Things to note:
 
 - Switches `B` & `C` are duplicated to keep it "symmetrical".
-- Switches `1` & `6` are not used to control the RC-202, but I've mapped them to the `Relay 3` and `Relay 4` in order to control other simpler pedals in my setup (such as the Boss VE-1 Vocal Echo) to replace a regular external footswitch.  I might use this ___ to control , or as an extra footswitch for the GT-1 / GT-1B.
+- Switches `1` & `6` are not used to control the RC-202, but I've mapped them to the `Relay 3` and `Relay 4` in order to control other simpler pedals in my setup (such as the Boss VE-1 Vocal Echo), or as an extra footswitch for the GT-1 / GT-1B. This will allow me to replace a regular external footswitch, such as one of my Boss FS-7 footswitches.
 
 
 ## Configuring the Nektar Pacer
