@@ -60,6 +60,7 @@ F0 00 20 32 32 TEXT F7
 
 With ‘TEXT’ being OSC strings in hex format, up to 39 kB in length
 
+you'd have to register to receive messages with periodically sending an /xremote OSC command).
 
  
 There is also a MIDI Dump command, B0 7F 7F which will echo out all valid CCs with values as I understand.
