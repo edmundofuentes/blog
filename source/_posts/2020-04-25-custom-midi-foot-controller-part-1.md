@@ -20,8 +20,8 @@ The RC-202 is a _desktop_ loop station, which means that it's designed to be ope
 
 Luckily, the RC-202 supports external controls, but it's (artificially) limited in those. It supports 7 "switches" that can be assigned to one of 35 predefined functions, for example "Function #1: Switches track 1 between record/play", "Function #6:  Clears track 2", and so on. However, there's a catch since the 7 "switches" are not all equal:
 
- - 2 of them are for an external footswitch, such as the Boss FS-6, connected through a 1/4" TRS jack (CTL1+CTL2 input).
- - 5 of them are for special MIDI Control Change (CC) messages that can be received through the MIDI IN connector and are fixed for CC 80 to CC 84.
+ - 2 of them are for an external dual footswitch, such as the Boss FS-6, connected through a 1/4" TRS jack (CTL1+CTL2 input).
+ - 5 of them are for special MIDI Control Change (CC) messages that can be received through the MIDI IN connector and are fixed to CC 80 thru CC 84.
  
 This means that by using a MIDI Foot Controller by itself we can only use 5 switches and assign them to 5 functions. If we'd wanted to assign 7 different controls, we would need to plug in a 5-switch controller through MIDI IN and a 2-switch external pedal through the CTL1+CTL2 TRS input.
 

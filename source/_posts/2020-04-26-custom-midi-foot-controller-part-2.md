@@ -63,8 +63,8 @@ Reading the state of a switch is a simple as reading the voltage from one node o
 
 To solve this, I will be using a configuration known as **pull-down resistor**. What this does, is that it guarantees that whenever the switch is `open` the microcontroller will read 0V (`LOW`). In other words, when the switch is `open` the circuit _pulls down the voltage_. However, when the switch is `closed` the microcontroller will read +5V (`HIGH`).  This prevents any undetermined or _floating_ measurement.
 
-<a href="/images/posts/2020-04-27-custom-midi-foot-controller-part-3/pull-down-resistor.jpg" class="no-underline" target="_blank">
-    <img src="/images/posts/2020-04-27-custom-midi-foot-controller-part-3/pull-down-resistor.jpg" alt="Pull-Down resistor configuration" />
+<a href="/images/posts/2020-04-27-custom-midi-foot-controller-part-2/pull-down-resistor.jpg" class="no-underline" target="_blank">
+    <img src="/images/posts/2020-04-27-custom-midi-foot-controller-part-2/pull-down-resistor.jpg" alt="Pull-Down resistor configuration" />
 </a>
 
 - When the switch is open, the pin is connected to GND through a 1kΩ resistor, since there is no current flowing from the pin, there is no voltage difference in the resistor and the voltage on the pin is 0V.

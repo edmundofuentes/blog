@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   margin-top: 2em; }
 
-p {
+p, li {
   font-size: 16px;
   line-height: 1.5em; }
 
@@ -47,6 +47,17 @@ blockquote, q {
 
 blockquote:after, blockquote:before, q:after, q:before {
   content: ""; }
+
+table {
+  width: calc(100% - 60px);
+  margin: 0 30px;
+  border-collapse: collapse;
+}
+
+table thead th, table thead td {
+  border-bottom: 2px solid black;
+  text-align: left;
+}
 
 hr {
   background-color: #ccc;
@@ -258,7 +269,7 @@ img[src$='#profile-picture'] {
   float: left;
   margin-right: 20px;
   padding-top: 5px;
-  width: 150px;
+  width: 150px !important;
   height: auto; }
 
 .social-links {
