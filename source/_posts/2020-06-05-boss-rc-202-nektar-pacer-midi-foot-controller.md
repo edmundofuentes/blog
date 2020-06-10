@@ -107,7 +107,7 @@ The final step is to connect both devices:
  - Connect a MIDI cable from the Pacer's MIDI Out to the RC-202's MIDI IN jack
  - Connect a 1/4" TRS cable from the Pacer's `R2/4` jack¹ to the RC-202's `CTL1/CTL2` jack.
  
-Power on both devices from a 9V DC adapter and you're done. 
+Power on both devices from a 9V DC adapter and you're good to go. 
 
 ## General Notes / Troubleshooting
 - The Boss RC-202 stores the CTL assignments as _bank settings_, instead of _global settings_. This means that the CTL configuration must be done once per each bank. If you never record anything in the built-in memory, then this should not be a problem since you could only configure the first bank and be done with it.  However, if you want it working in all 8 banks, you will have to configure it 8 times.
