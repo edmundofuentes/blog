@@ -8,12 +8,11 @@ categories:
     - music
 ---
 
-Read the previous entry for this topic [Researching commercially available options and gathering ideas](/blog/2020/04/25/custom-midi-foot-controller-part-1)
+Read the previous entry for this topic: [Researching commercially available options and gathering ideas](/blog/2020/04/25/custom-midi-foot-controller-part-1)
 
+**UPDATE:** I never got around to building this project, instead I bought a Nektar Pacer MIDI Foot Controller which has pretty much all the functionality that I was planning for this build. You can [read more about it here](/blog/2020/06/05/boss-rc-202-nektar-pacer-midi-foot-controller).
 
-**Note:** I never got around to building this project, instead I bought a Nektar Pacer MIDI Foot Controller which includes pretty much all the functionality that I was planning for this build.  However I did a lot of research
-
-**Note 2:** _this entry is still a work in progress.._
+**Note:** _this entry is still a work in progress.._
 
 As mentioned in the previous entries, the Bridge Controller will hold the brains and circuitry required to read from the footswitches and convert those signals into standard MIDI messages.
 

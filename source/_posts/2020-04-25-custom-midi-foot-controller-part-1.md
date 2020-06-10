@@ -151,6 +151,8 @@ I've drawn a mockup based on my real measurements of the FS-7, and it fits 6 ped
     <img src="/images/posts/2020-04-25-custom-midi-foot-controller-part-1/custom_pedalboard.png" alt="Custom Pedalboard Design Blueprint" />
 </a>
 
-**Note:** I never got around to building this project, instead I bought a Nektar Pacer MIDI Foot Controller which includes pretty much all the functionality that I was planning for this build.  However I did a lot of research
+Read the next part: [Designing the Electronic Circuit](/blog/2020/04/26/custom-midi-foot-controller-part-2)
 
-Read the next part [Building the pedalboard to hold the footswitches](/blog/2020/04/26/custom-midi-foot-controller-part-2)
+<hr>
+
+**UPDATE:** I never got around to building this project, instead I bought a Nektar Pacer MIDI Foot Controller which has pretty much all the functionality that I was planning for this build. You can [read more about it here](/blog/2020/06/05/boss-rc-202-nektar-pacer-midi-foot-controller).

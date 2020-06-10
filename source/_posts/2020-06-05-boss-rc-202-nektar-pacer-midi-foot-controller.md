@@ -8,7 +8,7 @@ categories:
     - music
 ---
 
-I spent quite a bit of time [researching commercially available options and gathering ideas to control my Boss RC-202 Loop Station with my feet](/blog/2020/04/25/custom-midi-foot-controller-part-1) . I even went as far as designing a [custom MIDI controller](/blog/2020/04/26/custom-midi-foot-controller-part-2), and when I was browsing Amazon for components I found the Nektar Pacer MIDI Foot Controller with very good reviews. While it is expensive at ~$220 USD, it is definitely cheaper than the solution I was thinking of building.
+I spent quite a bit of time [researching commercially available options and gathering ideas to control the Boss RC-202 Loop Station with my feet](/blog/2020/04/25/custom-midi-foot-controller-part-1) . I even went as far as designing a [custom MIDI controller](/blog/2020/04/26/custom-midi-foot-controller-part-2), and when I was browsing Amazon for components I found the Nektar Pacer MIDI Foot Controller with very good reviews. While it is expensive at ~$220 USD, it is definitely cheaper than the solution I was thinking of building.
 
 So I scratched all my plans to build a custom controller and I went ahead and bought the Pacer.
 
