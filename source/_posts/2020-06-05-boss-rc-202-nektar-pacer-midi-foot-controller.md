@@ -68,14 +68,14 @@ The editor is pretty straight forward, and after tweaking the settings this is t
 </a>
 
 
-If you'd like to try this layout, you can download [my RC-202 `.syx` file](/assets/posts/2020-06-05-boss-rc-202-nektar-pacer-midi-foot-controller/netkar-pacer-patch-rc202.2020-06-10-033223.syx) and upload it to your Pacer following these steps:
+If you'd like to try this layout, you can download [my RC-202 `.syx` file](/assets/posts/2020-06-05-boss-rc-202-nektar-pacer-midi-foot-controller/nektar-pacer-patch-rc202.2020-06-13-161935.syx) and upload it to your Pacer following these steps:
 
-
-1. Go to "Patch" on the top menu bar
-2. Click on "Read patch from Pacer" to load your current settings.
-3. Click on "Save patch to file" to download your current settings as a `.syx`.  Store this file as this will be your backup in case you want to revert to your custom settings.
-4. Click on "Load patch from file" and select [my RC-202 `.syx` file](/assets/posts/2020-06-05-boss-rc-202-nektar-pacer-midi-foot-controller/netkar-pacer-patch-rc202.2020-06-10-033223.syx)
-5. Finally, click on "Send patch to Pacer" to upload the custom preset to your Pacer.
+1. Make sure you are running the [latest v10112 firmware](https://nektartech.com/updating-firmware-pacer/) on your Pacer.
+2. Go to "Patch" on the Editor top menu bar
+3. Click on "Read patch from Pacer" to load your current settings.
+4. Click on "Save patch to file" to download your current settings as a `.syx`.  Store this file as this will be your backup in case you want to revert to your custom settings.
+5. Click on "Load patch from file" and select [my RC-202 `.syx` file](/assets/posts/2020-06-05-boss-rc-202-nektar-pacer-midi-foot-controller/nektar-pacer-patch-rc202.2020-06-13-161935.syx)
+6. Finally, click on "Send patch to Pacer" to upload the custom preset to your Pacer.
 
 
 After this is done, you can unplug your Pacer and restart it. Then, access the `A1` preset and it should show `RC202` on the display. That's it.
