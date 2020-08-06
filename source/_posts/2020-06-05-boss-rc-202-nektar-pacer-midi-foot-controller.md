@@ -105,13 +105,13 @@ To configure the RC-202, you have to press [SETUP] once, then press RING MODE [C
 The final step is to connect both devices:
  
  - Connect a MIDI cable from the Pacer's MIDI Out to the RC-202's MIDI IN jack
- - Connect a 1/4" TRS cable from the Pacer's `R2/4` jack¹ to the RC-202's `CTL1/CTL2` jack.
+ - Connect a 1/4" TRS cable from the Pacer's `R1/3` jack¹ to the RC-202's `CTL1/CTL2` jack.
  
 Power on both devices from a 9V DC adapter and you're good to go. 
 
 ## General Notes / Troubleshooting
 - The Boss RC-202 stores the CTL assignments as _bank settings_, instead of _global settings_. This means that the CTL configuration must be done once per each bank. If you never record anything in the built-in memory, then this should not be a problem since you could only configure the first bank and be done with it.  However, if you want it working in all 8 banks, you will have to configure it 8 times.
 - Following the _bank settings_ issue on the RC-202, I'm still not 100% sure _how_ or _when_ the settings are saved on the RC-202.  Sometimes I can enter [SETUP], adjust the CTL settings, and [EXIT] and the settings will be persisted when restarting the RC-202. But sometimes not.  I have also tried to write a "blank" phrase after modifying the settings and this seems to be the most consistent method.
-- ¹ For some reason, the Relay outputs appear to be flipped.  That is, the jack marked as `R1/3` on the Pacer responds to the settings made for the Relays 2 & 4, and the jack marked as `R2/4` on the Pacer responds to the settings for Relays 1 & 3. I'm not certain if the issue is in the Editor software or if it's a bug in the Pacer's firmware, but for now I'm swapping the plug to the other jack.
+- ¹ <s>For some reason, the Relay outputs appear to be flipped.  That is, the jack marked as `R1/3` on the Pacer responds to the settings made for the Relays 2 & 4, and the jack marked as `R2/4` on the Pacer responds to the settings for Relays 1 & 3. I'm not certain if the issue is in the Editor software or if it's a bug in the Pacer's firmware, but for now I'm swapping the plug to the other jack.</s> **Update:** The latest firmware changes storage of presets in the Pacer memory, so I was wrongly using the Editor with an older firmware on my Pacer. Make sure to always use the latest firmware for your Pacer to prevent any funkiness.
 - I'd like to replace the semi-transparent labels for each footswitch.
 - I might open up the Pacer sometime soon to see what's inside. I'll document my findings

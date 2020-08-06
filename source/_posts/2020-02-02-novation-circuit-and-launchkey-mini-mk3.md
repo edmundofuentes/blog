@@ -30,11 +30,11 @@ Make sure that the Circuit has the correct settings, refer to
 [this cheatsheet by /u/kikomn](https://www.reddit.com/r/novationcircuit/comments/a9blg4/cheat_sheet_novation_circuit/). Turn on the Circuit holding the `Shift` button to access the settings menu, and save the settings by pressing `Play`.
 
 ### Hardware only with MIDI
-As MIDI devices have been shrinking in size, a new MIDI plug standard has been developed around a common 1/8" TRS connector (think headphones), this means that in order to connect with _regular_ MIDI devices an adaptor is required. Also, there are 2 variations of this new plug: Type A and Type B. And both look exactly the same.
+As MIDI devices have been shrinking in size, a new MIDI plug standard has been developed around a common 1/8" (3.5mm) TRS connector (think headphones), this means that in order to connect with _regular_ MIDI devices an adaptor is required. Also, there are 2 variations of this new plug: Type A and Type B. And both look exactly the same.
 
 The Circuit includes 2 TRS-to-DIN breakout adaptors, and being a slightly older device, it uses Type B. The Launchkey Mini does not include any breakout adaptors, but it uses Type A.
 
-This means I was not able to use the 2 adaptors included in the Circuit to connect it to the Launchkey, since they require different types.
+This means I was not able to use the 2 adaptors included in the Circuit to connect it to the Launchkey, since they require different types on each end. Instead, I ordered a Type A breakout cable from Amazon, and I used one Type B adaptor from the Circuit with a regular MIDI cable.
 
 In other words, the required chain would be:
 
@@ -42,7 +42,12 @@ In other words, the required chain would be:
 Circuit MIDI In <-> Type B TRS MIDI adaptor <-> Standard MIDI cable <-> Type A TRS MIDI adaptor <-> Launchkey Mini Mk3 MIDI Out
 ```
 
-I've already ordered a Type A breakout cable, I'll update this post when I try it.
+
+However, what I ended up doing was purchasing a 3.5mm TRS cable (standard audio "AUX" cable), which I then cut in half, rewired 2 cables and soldered everything back again. It's a super simple soldering project that shouldn't take you more than a few minutes, just make sure to verify the connections with a multimeter. The end result is a much smaller cable that doesn't need any adaptors.
+
+[Here's a great post by Eric Skogen](https://minimidi.world) that has all the schematics you would need and a more detailed explanation of the "Mini MIDI" standard, but in summary, you have to identify the Tip and Ring cables and switch them up.
+
+
 
 
 ### Software based (USB Host)
@@ -120,4 +125,5 @@ I have not tested using a sustain pedal. I probably won't anytime soon, since I 
 ## References
 - [/u/kikomn Circuit MIDI cheatsheet on reddit](https://www.reddit.com/r/novationcircuit/comments/a9blg4/cheat_sheet_novation_circuit/)
 - [/u/jumping-trains reddit comment](https://www.reddit.com/r/novationcircuit/comments/e2j7yl/lauchkey_mini_mk3_with_circuit/f95j5bg/)
+- [A simplified guide to TRS MIDI by Eric Skogen](https://minimidi.world)
 
