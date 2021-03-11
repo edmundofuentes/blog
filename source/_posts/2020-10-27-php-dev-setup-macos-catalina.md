@@ -9,15 +9,48 @@ categories:
 draft: yes
 ---
 
+The "old ways" would be to install MAMP, but that is outdated and not very flexible.
+
+Instead, we're using ___
+
+As a bare minimum,
+
+We're installing the following packages:
+
+- Homebrew:
+- PHP
+- MySQL
+- GPG for YubiKey SSH support
+
+The rest of the __ are __ 
+
+This is written for macOS Catalina 10.15.7.
+
+# Homebrew
+Brew is the __ package manager __ for macOS. It's great, works very well..
+
+Go to brew.sh 
+
+Run a single line in your terminal and that's it.
+
+Note: Brew might require you to have Xcode installed beforehand, you can get it (a) as a free download in the App Store, or (b) by downloading directly from the Apple Developer's website in case you have a dev account, this being the faster option of the two.
 
 
-Catalina comes with PHP 7.3 by default, which is not bad, but it takes control away
+# PHP
+
+
+
+Catalina comes bundled with PHP 7.3 by default, which is actually not bad, but it's compiled _ without some important and useful extensions (features), such as `ext-zip`. Since we'd rather not mess with macOS and its default packaging, 
+
+Instead of adding,, we'll simply install the version we want with Brew, and let it handle the linkage.
+
+that is, we can have _both_ versions of PHP installed, and through Brew we can select which one responds when you type `php` in the console.
 
 
 ```
 brew update
-brew install php@7.4
-brew link php@7.4
+brew install php@7.2
+brew link php@7.2 --force
 ```
 
 
@@ -27,27 +60,59 @@ https://stackoverflow.com/a/58300437
 The Brew Formula includes all commonly used 
 
 
+To verify that PHP has been installed and the correct version has been linked correctly, simply type `php -v` in your terminal and you should see the correct version displayed.
+
+```
+$> php -v
+PHP 7.2.33 (cli) (built: Aug  7 2020 18:29:34) ( NTS )
+Copyright (c) 1997-2018 The PHP Group
+Zend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies
+    with Zend OPcache v7.2.33, Copyright (c) 1999-2018, by Zend Technologies
+```
+
+If you want to be completely sure that everything is linked as expected, you could also check _what_ binary is being executed when running `php`.
+
+```
+$> ls -la $(which php)
+lrwxr-xr-x  1 mundofr  admin  32 Oct 26 10:01 /usr/local/bin/php -> ../Cellar/php@7.2/7.2.33/bin/php
+```
+
+Nifty.
 
 
 
 
-
+# MySQL
 
 Install MySQL
 
-
+```
 brew tap homebrew/services
-
 brew install mysql@5.7
-
- brew link mysql@5.7 --force
-
-
+brew link mysql@5.7 --force
 brew services start mysql@5.7
+```
 
+Update ___ your local password.. 
+
+```
 mysqladmin -u root password 'yourpassword'
+```
 
 
+Increase compatibility
+
+SELECT @@GLOBAL.sql_mode global
+
+```
+nano /usr/local/etc/my.cnf
+```
+
+
+sql_mode=STRICT_TRANS_TABLES,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+
+
+brew services restart mysql@5.7
 
 _This is an update of my previous guide for [macOS 10.3 High Sierra](blog/2018/06/27/yubikey-gpg-ssh/)_
 
@@ -124,6 +189,8 @@ gpg-connect-agent updatestartuptty /bye
 gpg-connect-agent /bye
 ```
 
+You might want to add this as an alias, since it happens very frequently..
+
 Finally, insert your YubiKey in a USB port and check if it is being correctly detected by running the command:
 
 ```bash
@@ -136,3 +203,7 @@ You should see the details of your YubiKey (card) in the console. Take note of t
 
 
 Follow my previous guide with the steps to Initialize and configure your YubiKey
+
+
+Tweak iOS Backups
+ln -s /Volumes/SSD1TB/iOS\ Backups/ ~/Library/Application\ Support/MobileSync/Backup
