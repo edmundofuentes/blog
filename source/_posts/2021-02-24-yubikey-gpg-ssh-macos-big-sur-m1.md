@@ -131,3 +131,17 @@ pero el ssh no lo estaba invocando
 entonces no estaba pasándole el PIN al yubikey
 y estaba fallando todo
 which pinentry-mac me dio la ruta instalada
+
+
+
+
+If using a yubikey and getting this:
+```
+gpg: selecting card failed: Operation not supported by device
+gpg: OpenPGP card not available: Operation not supported by device
+```
+
+Add to ~/.gnupg/scdaemon.conf
+```
+disable-ccid
+```
