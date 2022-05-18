@@ -29,7 +29,10 @@
             "components/bootstrap",
             "components/jquery",
             "components/highlightjs"
-        ]
+        ],
+        "allow-plugins": {
+            "sculpin/sculpin-theme-composer-plugin": true
+        }
     },
     "scripts": {
         "post-install-cmd": [
